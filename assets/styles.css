@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 1px white;
+}
+
+section {
+    text-align: center;
+    margin: auto;
+    padding: 230px 0;
+    transition: all .5s;
+}
+
+.redondo {
+    border: none;
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+#contarClick {
+    font-size: 70px;
+    font-weight: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px auto;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 50%;
+}
+
+.score{
+    width:150px;
+    height:200px;
+    text-align: center;
+    background:rgb(3, 43, 80);
+    font-family:arial;
+    font-weight:bold;
+    color:#EEEEEE;
+}
+
+.midl > .score {
+    width: auto;
+    height: 52px;
+}
